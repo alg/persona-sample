@@ -1,0 +1,11 @@
+#header
+  - if @email
+    %h1 You are logged in as
+    %p #{@email}
+    %p
+      %a( href='#' id='logout') Log out
+
+  - else
+    %h1 Please log in...
+    %p
+      %a( href='#' id='login') Log in
