@@ -4,12 +4,13 @@ body {
 
 h1 {
   margin: 0 0 20px;
-  font-family: marvel, serif;
+  font-family: poiret-one, sans-serif;
 }
 
 #page{
+  text-align: center;
   background: #fff;
-  width: 300px;
+  width: 400px;
   padding: 20px;
   border: 1px solid #ccc;
   margin: 200px auto;
